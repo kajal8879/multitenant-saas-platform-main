@@ -45,7 +45,7 @@ Then open cmd and change directory to folder which contains pom.xml file and run
 ```
 
 Dummy values are already in `application.properties` so the app can start during assessment.
-
+While testing through swagger please register using / register endpoint, it will return a token . Authorize swagger using that token , then all endpoints will be accessible.
 
 ## Tests
 
